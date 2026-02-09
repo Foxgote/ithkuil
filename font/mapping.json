@@ -1,0 +1,145 @@
+{
+  "$schema": "https://example.com/ithkuil-font-mapping.schema.json",
+  "version": "0.1.0",
+  "notes": "Starter mapping for a component-based Ithkuil-style font. Expand incrementally.",
+  "ranges": {
+    "base_cores": "E000-E0FF",
+    "marks": "E100-E1FF",
+    "structure": "E200-E2FF",
+    "ligatures": "E300-E7FF"
+  },
+  "entries": [
+    {
+      "name": "core_k",
+      "codepoint": "E000",
+      "category": "base",
+      "input_sequence": "k"
+    },
+    {
+      "name": "core_t",
+      "codepoint": "E001",
+      "category": "base",
+      "input_sequence": "t"
+    },
+    {
+      "name": "core_p",
+      "codepoint": "E002",
+      "category": "base",
+      "input_sequence": "p"
+    },
+    {
+      "name": "core_s",
+      "codepoint": "E003",
+      "category": "base",
+      "input_sequence": "s"
+    },
+    {
+      "name": "core_r",
+      "codepoint": "E004",
+      "category": "base",
+      "input_sequence": "r"
+    },
+    {
+      "name": "core_l",
+      "codepoint": "E005",
+      "category": "base",
+      "input_sequence": "l"
+    },
+    {
+      "name": "core_m",
+      "codepoint": "E006",
+      "category": "base",
+      "input_sequence": "m"
+    },
+    {
+      "name": "core_n",
+      "codepoint": "E007",
+      "category": "base",
+      "input_sequence": "n"
+    },
+    {
+      "name": "mark_dot",
+      "codepoint": "E100",
+      "category": "mark",
+      "input_sequence": "."
+    },
+    {
+      "name": "mark_hbar",
+      "codepoint": "E101",
+      "category": "mark",
+      "input_sequence": "-"
+    },
+    {
+      "name": "mark_diag",
+      "codepoint": "E102",
+      "category": "mark",
+      "input_sequence": "/"
+    },
+    {
+      "name": "mark_curve",
+      "codepoint": "E103",
+      "category": "mark",
+      "input_sequence": "~"
+    },
+    {
+      "name": "mark_glottal",
+      "codepoint": "E104",
+      "category": "mark",
+      "input_sequence": "'"
+    },
+    {
+      "name": "mark_velarized",
+      "codepoint": "E105",
+      "category": "mark",
+      "input_sequence": "?"
+    },
+    {
+      "name": "register_open",
+      "codepoint": "E200",
+      "category": "structure",
+      "input_sequence": "["
+    },
+    {
+      "name": "register_close",
+      "codepoint": "E201",
+      "category": "structure",
+      "input_sequence": "]"
+    },
+    {
+      "name": "word_break",
+      "codepoint": "E202",
+      "category": "structure",
+      "input_sequence": "|"
+    },
+    {
+      "name": "glyph_fallback",
+      "codepoint": "E2FF",
+      "category": "structure",
+      "input_sequence": "?"
+    },
+    {
+      "name": "lig_k_dot",
+      "codepoint": "E300",
+      "category": "ligature",
+      "input_sequence": "k."
+    },
+    {
+      "name": "lig_t_hbar",
+      "codepoint": "E301",
+      "category": "ligature",
+      "input_sequence": "t-"
+    },
+    {
+      "name": "lig_s_curve",
+      "codepoint": "E302",
+      "category": "ligature",
+      "input_sequence": "s~"
+    },
+    {
+      "name": "lig_r_glottal",
+      "codepoint": "E303",
+      "category": "ligature",
+      "input_sequence": "r'"
+    }
+  ]
+}

@@ -35,6 +35,8 @@
     "parse/**/*.tsx",
     "script/**/*.ts",
     "script/**/*.tsx",
+    "tools/**/*.ts",
+    "tools/**/*.tsx",
     "test/**/*.ts",
     "test/**/*.tsx",
     "ungloss/**/*.ts",

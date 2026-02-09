@@ -1,0 +1,34 @@
+languagesystem DFLT dflt;
+
+# Base classes
+@base = [uniE000 uniE001 uniE002 uniE003 uniE004 uniE005 uniE006 uniE007];
+@mark = [uniE100 uniE101 uniE102 uniE103 uniE104 uniE105];
+
+# Recommended: define anchors in glyph sources and use mark/mkmk.
+feature mark {
+  # Example only; replace with real anchor-aware mark classes as glyphs mature.
+} mark;
+
+feature mkmk {
+  # Example only for stacked marks.
+} mkmk;
+
+feature liga {
+  # Curated precomposed substitutions.
+  sub uniE000 uniE100 by uniE300; # k + dot
+  sub uniE001 uniE101 by uniE301; # t + hbar
+  sub uniE003 uniE103 by uniE302; # s + curve
+  sub uniE004 uniE104 by uniE303; # r + glottal
+} liga;
+
+feature calt {
+  # Contextual alternate examples.
+  # Replace with real alternates once glyph set is expanded.
+  # sub uniE000' uniE004 by uniE400;
+} calt;
+
+feature ss01 {
+  # Style set for handwritten alternates.
+  # sub uniE000 by uniE500;
+  # sub uniE001 by uniE501;
+} ss01;
