@@ -1,0 +1,1064 @@
+{
+  "generatedAt": "2026-02-10T11:49:38.986Z",
+  "count": 20,
+  "minGlyphs": 1,
+  "maxGlyphs": 10,
+  "seed": "3683124257",
+  "resolvedSeed": 3683124257,
+  "seedSummary": "3683124257 (resolved=3683124257)",
+  "outDir": ".tmp\\seed-test",
+  "items": [
+    {
+      "id": "phrase-001",
+      "phrase": "li beiskotrogri",
+      "hash": "05626fa8",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-001/phrase.svg",
+      "phraseWidth": 428.9,
+      "phraseHeight": 140,
+      "phraseViewBox": "0 0 428.9 140",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-001/glyph-01.svg",
+          "width": 20,
+          "height": 88.8,
+          "viewBox": "0 0 20 88.8"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-001/glyph-02.svg",
+          "width": 50,
+          "height": 90,
+          "viewBox": "0 0 50 90"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-001/glyph-03.svg",
+          "width": 78.8,
+          "height": 102.5,
+          "viewBox": "0 0 78.8 102.5"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-001/glyph-04.svg",
+          "width": 59.45,
+          "height": 99.979167166505,
+          "viewBox": "0 0 59.45 99.979167"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-001/glyph-05.svg",
+          "width": 72.5,
+          "height": 115,
+          "viewBox": "0 0 72.5 115"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-001/glyph-06.svg",
+          "width": 98.15,
+          "height": 114.85,
+          "viewBox": "0 0 98.15 114.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-002",
+      "phrase": "drahioblaikk siliatrai",
+      "hash": "60283f27",
+      "glyphCount": 7,
+      "phraseFile": "phrases/phrase-002/phrase.svg",
+      "phraseWidth": 440.15,
+      "phraseHeight": 160.02499999999998,
+      "phraseViewBox": "0 0 440.15 160.025",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-002/glyph-01.svg",
+          "width": 55,
+          "height": 70,
+          "viewBox": "0 0 55 70"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-002/glyph-02.svg",
+          "width": 55,
+          "height": 94.94999999999999,
+          "viewBox": "0 0 55 94.95"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-002/glyph-03.svg",
+          "width": 50,
+          "height": 115,
+          "viewBox": "0 0 50 115"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-002/glyph-04.svg",
+          "width": 59.45,
+          "height": 155,
+          "viewBox": "0 0 59.45 155"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-002/glyph-05.svg",
+          "width": 75.65,
+          "height": 135.05,
+          "viewBox": "0 0 75.65 135.05"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-002/glyph-06.svg",
+          "width": 35.05,
+          "height": 77.7,
+          "viewBox": "0 0 35.05 77.7"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-002/glyph-07.svg",
+          "width": 50,
+          "height": 110,
+          "viewBox": "0 0 50 110"
+        }
+      ]
+    },
+    {
+      "id": "phrase-003",
+      "phrase": "mir Q2kraiyorbiach niareiblia",
+      "hash": "1825551d",
+      "glyphCount": 9,
+      "phraseFile": "phrases/phrase-003/phrase.svg",
+      "phraseWidth": 702.98888755072,
+      "phraseHeight": 147.52499999999998,
+      "phraseViewBox": "0 0 702.988888 147.525",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-003/glyph-01.svg",
+          "width": 72.15,
+          "height": 97.5,
+          "viewBox": "0 0 72.15 97.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-003/glyph-02.svg",
+          "width": 37.5,
+          "height": 70,
+          "viewBox": "0 0 37.5 70"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-003/glyph-03.svg",
+          "width": 103.80000000000001,
+          "height": 122.55000000000001,
+          "viewBox": "0 0 103.8 122.55"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-003/glyph-04.svg",
+          "width": 65.98886718749999,
+          "height": 100,
+          "viewBox": "0 0 65.988867 100"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-003/glyph-05.svg",
+          "width": 96.94999999999999,
+          "height": 95,
+          "viewBox": "0 0 96.95 95"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-003/glyph-06.svg",
+          "width": 50,
+          "height": 101.4,
+          "viewBox": "0 0 50 101.4"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-003/glyph-07.svg",
+          "width": 82.15,
+          "height": 90,
+          "viewBox": "0 0 82.15 90"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-003/glyph-08.svg",
+          "width": 40,
+          "height": 89.85,
+          "viewBox": "0 0 40 89.85"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-003/glyph-09.svg",
+          "width": 74.45000000000002,
+          "height": 140,
+          "viewBox": "0 0 74.45 140"
+        }
+      ]
+    },
+    {
+      "id": "phrase-004",
+      "phrase": "chadukro",
+      "hash": "5421efd4",
+      "glyphCount": 3,
+      "phraseFile": "phrases/phrase-004/phrase.svg",
+      "phraseWidth": 240.65000000000003,
+      "phraseHeight": 131.425,
+      "phraseViewBox": "0 0 240.65 131.425",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-004/glyph-01.svg",
+          "width": 72.5,
+          "height": 70,
+          "viewBox": "0 0 72.5 70"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-004/glyph-02.svg",
+          "width": 50,
+          "height": 131.4,
+          "viewBox": "0 0 50 131.4"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-004/glyph-03.svg",
+          "width": 98.15,
+          "height": 90.05000000000001,
+          "viewBox": "0 0 98.15 90.05"
+        }
+      ]
+    },
+    {
+      "id": "phrase-005",
+      "phrase": "loalei pi",
+      "hash": "0d2fc70a",
+      "glyphCount": 4,
+      "phraseFile": "phrases/phrase-005/phrase.svg",
+      "phraseWidth": 242.5,
+      "phraseHeight": 127.5,
+      "phraseViewBox": "0 0 242.5 127.5",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-005/glyph-01.svg",
+          "width": 82.5,
+          "height": 107.5,
+          "viewBox": "0 0 82.5 107.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-005/glyph-02.svg",
+          "width": 50,
+          "height": 115,
+          "viewBox": "0 0 50 115"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-005/glyph-03.svg",
+          "width": 20,
+          "height": 88.8,
+          "viewBox": "0 0 20 88.8"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-005/glyph-04.svg",
+          "width": 60,
+          "height": 90,
+          "viewBox": "0 0 60 90"
+        }
+      ]
+    },
+    {
+      "id": "phrase-006",
+      "phrase": "thareigruj kres",
+      "hash": "037518c7",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-006/phrase.svg",
+      "phraseWidth": 521.6500000000001,
+      "phraseHeight": 139.85,
+      "phraseViewBox": "0 0 521.65 139.85",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-006/glyph-01.svg",
+          "width": 82.15,
+          "height": 72.5,
+          "viewBox": "0 0 82.15 72.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-006/glyph-02.svg",
+          "width": 82.55,
+          "height": 86.4,
+          "viewBox": "0 0 82.55 86.4"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-006/glyph-03.svg",
+          "width": 98.15,
+          "height": 139.85,
+          "viewBox": "0 0 98.15 139.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-006/glyph-04.svg",
+          "width": 60,
+          "height": 90,
+          "viewBox": "0 0 60 90"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-006/glyph-05.svg",
+          "width": 70,
+          "height": 95,
+          "viewBox": "0 0 70 95"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-006/glyph-06.svg",
+          "width": 78.80000000000001,
+          "height": 85.05000000000001,
+          "viewBox": "0 0 78.8 85.05"
+        }
+      ]
+    },
+    {
+      "id": "phrase-007",
+      "phrase": "kaidria Q2veikprid broustoudsmo brioblia",
+      "hash": "8829a0e8",
+      "glyphCount": 10,
+      "phraseFile": "phrases/phrase-007/phrase.svg",
+      "phraseWidth": 793.75,
+      "phraseHeight": 161.325,
+      "phraseViewBox": "0 0 793.75 161.325",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-007/glyph-01.svg",
+          "width": 69.3,
+          "height": 95,
+          "viewBox": "0 0 69.3 95"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-007/glyph-02.svg",
+          "width": 75.65,
+          "height": 90.05,
+          "viewBox": "0 0 75.65 90.05"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-007/glyph-03.svg",
+          "width": 110,
+          "height": 107.5,
+          "viewBox": "0 0 110 107.5"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-007/glyph-04.svg",
+          "width": 69.89999999999999,
+          "height": 127.5,
+          "viewBox": "0 0 69.9 127.5"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-007/glyph-05.svg",
+          "width": 50,
+          "height": 70,
+          "viewBox": "0 0 50 70"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-007/glyph-06.svg",
+          "width": 80,
+          "height": 103.7,
+          "viewBox": "0 0 80 103.7"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-007/glyph-07.svg",
+          "width": 59.45,
+          "height": 120,
+          "viewBox": "0 0 59.45 120"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-007/glyph-08.svg",
+          "width": 55,
+          "height": 147.90292968750003,
+          "viewBox": "0 0 55 147.90293"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-007/glyph-09.svg",
+          "width": 75,
+          "height": 90,
+          "viewBox": "0 0 75 90"
+        },
+        {
+          "index": 10,
+          "file": "phrases/phrase-007/glyph-10.svg",
+          "width": 59.45,
+          "height": 110,
+          "viewBox": "0 0 59.45 110"
+        }
+      ]
+    },
+    {
+      "id": "phrase-008",
+      "phrase": "smiabroambri",
+      "hash": "46e72317",
+      "glyphCount": 4,
+      "phraseFile": "phrases/phrase-008/phrase.svg",
+      "phraseWidth": 234.45,
+      "phraseHeight": 134.9509765625,
+      "phraseViewBox": "0 0 234.45 134.950977",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-008/glyph-01.svg",
+          "width": 65,
+          "height": 90,
+          "viewBox": "0 0 65 90"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-008/glyph-02.svg",
+          "width": 55,
+          "height": 99.92916716650498,
+          "viewBox": "0 0 55 99.929167"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-008/glyph-03.svg",
+          "width": 25,
+          "height": 70,
+          "viewBox": "0 0 25 70"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-008/glyph-04.svg",
+          "width": 59.45,
+          "height": 125,
+          "viewBox": "0 0 59.45 125"
+        }
+      ]
+    },
+    {
+      "id": "phrase-009",
+      "phrase": "avzkheli",
+      "hash": "807a6632",
+      "glyphCount": 3,
+      "phraseFile": "phrases/phrase-009/phrase.svg",
+      "phraseWidth": 189.95,
+      "phraseHeight": 114.76249149952,
+      "phraseViewBox": "0 0 189.95 114.762491",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-009/glyph-01.svg",
+          "width": 70,
+          "height": 70,
+          "viewBox": "0 0 70 70"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-009/glyph-02.svg",
+          "width": 57.4,
+          "height": 114.76249149952,
+          "viewBox": "0 0 57.4 114.762491"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-009/glyph-03.svg",
+          "width": 42.55,
+          "height": 86.4,
+          "viewBox": "0 0 42.55 86.4"
+        }
+      ]
+    },
+    {
+      "id": "phrase-010",
+      "phrase": "leisteigios mi",
+      "hash": "36f0a68f",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-010/phrase.svg",
+      "phraseWidth": 368.15,
+      "phraseHeight": 139.97500000000002,
+      "phraseViewBox": "0 0 368.15 139.975",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-010/glyph-01.svg",
+          "width": 77.5,
+          "height": 102.5,
+          "viewBox": "0 0 77.5 102.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-010/glyph-02.svg",
+          "width": 50,
+          "height": 70,
+          "viewBox": "0 0 50 70"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-010/glyph-03.svg",
+          "width": 75.65,
+          "height": 139.85,
+          "viewBox": "0 0 75.65 139.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-010/glyph-04.svg",
+          "width": 55,
+          "height": 134.95,
+          "viewBox": "0 0 55 134.95"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-010/glyph-05.svg",
+          "width": 20,
+          "height": 88.8,
+          "viewBox": "0 0 20 88.8"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-010/glyph-06.svg",
+          "width": 40,
+          "height": 90,
+          "viewBox": "0 0 40 90"
+        }
+      ]
+    },
+    {
+      "id": "phrase-011",
+      "phrase": "Q2krovourkgrai Q2blupround",
+      "hash": "d44a349a",
+      "glyphCount": 7,
+      "phraseFile": "phrases/phrase-011/phrase.svg",
+      "phraseWidth": 601.0777560763888,
+      "phraseHeight": 135.02499999999998,
+      "phraseViewBox": "0 0 601.077756 135.025",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-011/glyph-01.svg",
+          "width": 78.80000000000001,
+          "height": 129.15243027774,
+          "viewBox": "0 0 78.8 129.15243"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-011/glyph-02.svg",
+          "width": 95.98750049995498,
+          "height": 115,
+          "viewBox": "0 0 95.9875 115"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-011/glyph-03.svg",
+          "width": 98.15,
+          "height": 88.85000000000002,
+          "viewBox": "0 0 98.15 88.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-011/glyph-04.svg",
+          "width": 75,
+          "height": 107.5,
+          "viewBox": "0 0 75 107.5"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-011/glyph-05.svg",
+          "width": 59.45,
+          "height": 135,
+          "viewBox": "0 0 59.45 135"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-011/glyph-06.svg",
+          "width": 95.98750049995498,
+          "height": 135,
+          "viewBox": "0 0 95.9875 135"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-011/glyph-07.svg",
+          "width": 37.7,
+          "height": 78.69999999999999,
+          "viewBox": "0 0 37.7 78.7"
+        }
+      ]
+    },
+    {
+      "id": "phrase-012",
+      "phrase": "hokleseinj daiglibriand",
+      "hash": "40f981bf",
+      "glyphCount": 7,
+      "phraseFile": "phrases/phrase-012/phrase.svg",
+      "phraseWidth": 539.15,
+      "phraseHeight": 149.925,
+      "phraseViewBox": "0 0 539.15 149.925",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-012/glyph-01.svg",
+          "width": 95.05,
+          "height": 115,
+          "viewBox": "0 0 95.05 115"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-012/glyph-02.svg",
+          "width": 75.65,
+          "height": 85.05000000000001,
+          "viewBox": "0 0 75.65 85.05"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-012/glyph-03.svg",
+          "width": 55.199999999999996,
+          "height": 149.85,
+          "viewBox": "0 0 55.2 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-012/glyph-04.svg",
+          "width": 81.30000000000001,
+          "height": 95,
+          "viewBox": "0 0 81.3 95"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-012/glyph-05.svg",
+          "width": 50,
+          "height": 70,
+          "viewBox": "0 0 50 70"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-012/glyph-06.svg",
+          "width": 81.95000000000002,
+          "height": 114.10243027774001,
+          "viewBox": "0 0 81.95 114.10243"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-012/glyph-07.svg",
+          "width": 40,
+          "height": 122.55,
+          "viewBox": "0 0 40 122.55"
+        }
+      ]
+    },
+    {
+      "id": "phrase-013",
+      "phrase": "biosnem",
+      "hash": "e4a94a52",
+      "glyphCount": 3,
+      "phraseFile": "phrases/phrase-013/phrase.svg",
+      "phraseWidth": 239.5,
+      "phraseHeight": 97.5,
+      "phraseViewBox": "0 0 239.5 97.5",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-013/glyph-01.svg",
+          "width": 100.05000000000001,
+          "height": 97.5,
+          "viewBox": "0 0 100.05 97.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-013/glyph-02.svg",
+          "width": 59.45,
+          "height": 70,
+          "viewBox": "0 0 59.45 70"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-013/glyph-03.svg",
+          "width": 60,
+          "height": 55,
+          "viewBox": "0 0 60 55"
+        }
+      ]
+    },
+    {
+      "id": "phrase-014",
+      "phrase": "fikloa",
+      "hash": "cb68ecaf",
+      "glyphCount": 2,
+      "phraseFile": "phrases/phrase-014/phrase.svg",
+      "phraseWidth": 142.5,
+      "phraseHeight": 144.082096854005,
+      "phraseViewBox": "0 0 142.5 144.082097",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-014/glyph-01.svg",
+          "width": 72.5,
+          "height": 87.5,
+          "viewBox": "0 0 72.5 87.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-014/glyph-02.svg",
+          "width": 60,
+          "height": 144.082096854005,
+          "viewBox": "0 0 60 144.082097"
+        }
+      ]
+    },
+    {
+      "id": "phrase-015",
+      "phrase": "nut Q2kiartfedroav",
+      "hash": "96ad842f",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-015/phrase.svg",
+      "phraseWidth": 501.8388671875,
+      "phraseHeight": 115.025,
+      "phraseViewBox": "0 0 501.838867 115.025",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-015/glyph-01.svg",
+          "width": 82.5,
+          "height": 95,
+          "viewBox": "0 0 82.5 95"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-015/glyph-02.svg",
+          "width": 37.7,
+          "height": 69.85,
+          "viewBox": "0 0 37.7 69.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-015/glyph-03.svg",
+          "width": 113.15,
+          "height": 95.05000000000001,
+          "viewBox": "0 0 113.15 95.05"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-015/glyph-04.svg",
+          "width": 72.5,
+          "height": 108.80000000000001,
+          "viewBox": "0 0 72.5 108.8"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-015/glyph-05.svg",
+          "width": 85.9888671875,
+          "height": 115,
+          "viewBox": "0 0 85.988867 115"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-015/glyph-06.svg",
+          "width": 60,
+          "height": 70,
+          "viewBox": "0 0 60 70"
+        }
+      ]
+    },
+    {
+      "id": "phrase-016",
+      "phrase": "thiobleind",
+      "hash": "234ac136",
+      "glyphCount": 3,
+      "phraseFile": "phrases/phrase-016/phrase.svg",
+      "phraseWidth": 215.25,
+      "phraseHeight": 147.55,
+      "phraseViewBox": "0 0 215.25 147.55",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-016/glyph-01.svg",
+          "width": 75,
+          "height": 90,
+          "viewBox": "0 0 75 90"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-016/glyph-02.svg",
+          "width": 82.55,
+          "height": 86.4,
+          "viewBox": "0 0 82.55 86.4"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-016/glyph-03.svg",
+          "width": 37.7,
+          "height": 147.55,
+          "viewBox": "0 0 37.7 147.55"
+        }
+      ]
+    },
+    {
+      "id": "phrase-017",
+      "phrase": "dar get nu walgzve",
+      "hash": "7b53c6e4",
+      "glyphCount": 9,
+      "phraseFile": "phrases/phrase-017/phrase.svg",
+      "phraseWidth": 619.6499999999999,
+      "phraseHeight": 117.35,
+      "phraseViewBox": "0 0 619.65 117.35",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-017/glyph-01.svg",
+          "width": 82.15,
+          "height": 97.5,
+          "viewBox": "0 0 82.15 97.5"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-017/glyph-02.svg",
+          "width": 50,
+          "height": 70,
+          "viewBox": "0 0 50 70"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-017/glyph-03.svg",
+          "width": 70,
+          "height": 95,
+          "viewBox": "0 0 70 95"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-017/glyph-04.svg",
+          "width": 75.65,
+          "height": 69.85,
+          "viewBox": "0 0 75.65 69.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-017/glyph-05.svg",
+          "width": 25,
+          "height": 70,
+          "viewBox": "0 0 25 70"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-017/glyph-06.svg",
+          "width": 40,
+          "height": 89.85,
+          "viewBox": "0 0 40 89.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-017/glyph-07.svg",
+          "width": 65,
+          "height": 70,
+          "viewBox": "0 0 65 70"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-017/glyph-08.svg",
+          "width": 90.65,
+          "height": 97.35,
+          "viewBox": "0 0 90.65 97.35"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-017/glyph-09.svg",
+          "width": 41.2,
+          "height": 70.933324333015,
+          "viewBox": "0 0 41.2 70.933324"
+        }
+      ]
+    },
+    {
+      "id": "phrase-018",
+      "phrase": "la klu klagio",
+      "hash": "98da9b0d",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-018/phrase.svg",
+      "phraseWidth": 360.09999999999997,
+      "phraseHeight": 125.05000000000001,
+      "phraseViewBox": "0 0 360.1 125.05",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-018/glyph-01.svg",
+          "width": 10,
+          "height": 70,
+          "viewBox": "0 0 10 70"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-018/glyph-02.svg",
+          "width": 50,
+          "height": 90,
+          "viewBox": "0 0 50 90"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-018/glyph-03.svg",
+          "width": 25,
+          "height": 70,
+          "viewBox": "0 0 25 70"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-018/glyph-04.svg",
+          "width": 75.65,
+          "height": 105.05000000000001,
+          "viewBox": "0 0 75.65 105.05"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-018/glyph-05.svg",
+          "width": 73.8,
+          "height": 70,
+          "viewBox": "0 0 73.8 70"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-018/glyph-06.svg",
+          "width": 75.65,
+          "height": 125.05000000000001,
+          "viewBox": "0 0 75.65 125.05"
+        }
+      ]
+    },
+    {
+      "id": "phrase-019",
+      "phrase": "dris arnznalo",
+      "hash": "d7001422",
+      "glyphCount": 5,
+      "phraseFile": "phrases/phrase-019/phrase.svg",
+      "phraseWidth": 290.20000000000005,
+      "phraseHeight": 127.35,
+      "phraseViewBox": "0 0 290.2 127.35",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-019/glyph-01.svg",
+          "width": 55,
+          "height": 95,
+          "viewBox": "0 0 55 95"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-019/glyph-02.svg",
+          "width": 50,
+          "height": 90,
+          "viewBox": "0 0 50 90"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-019/glyph-03.svg",
+          "width": 65,
+          "height": 70,
+          "viewBox": "0 0 65 70"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-019/glyph-04.svg",
+          "width": 45.2,
+          "height": 127.35,
+          "viewBox": "0 0 45.2 127.35"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-019/glyph-05.svg",
+          "width": 35,
+          "height": 78.7,
+          "viewBox": "0 0 35 78.7"
+        }
+      ]
+    },
+    {
+      "id": "phrase-020",
+      "phrase": "rilspedeirk choabriapreb ti",
+      "hash": "42bf0542",
+      "glyphCount": 10,
+      "phraseFile": "phrases/phrase-020/phrase.svg",
+      "phraseWidth": 657.25,
+      "phraseHeight": 162.2,
+      "phraseViewBox": "0 0 657.25 162.2",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-020/glyph-01.svg",
+          "width": 60,
+          "height": 86.35,
+          "viewBox": "0 0 60 86.35"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-020/glyph-02.svg",
+          "width": 50,
+          "height": 70,
+          "viewBox": "0 0 50 70"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-020/glyph-03.svg",
+          "width": 50,
+          "height": 115,
+          "viewBox": "0 0 50 115"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-020/glyph-04.svg",
+          "width": 62.8,
+          "height": 149.7,
+          "viewBox": "0 0 62.8 149.7"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-020/glyph-05.svg",
+          "width": 82.5,
+          "height": 107.5,
+          "viewBox": "0 0 82.5 107.5"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-020/glyph-06.svg",
+          "width": 50,
+          "height": 101.4,
+          "viewBox": "0 0 50 101.4"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-020/glyph-07.svg",
+          "width": 82.5,
+          "height": 115,
+          "viewBox": "0 0 82.5 115"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-020/glyph-08.svg",
+          "width": 59.45,
+          "height": 115,
+          "viewBox": "0 0 59.45 115"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-020/glyph-09.svg",
+          "width": 20,
+          "height": 88.8,
+          "viewBox": "0 0 20 88.8"
+        },
+        {
+          "index": 10,
+          "file": "phrases/phrase-020/glyph-10.svg",
+          "width": 50,
+          "height": 90,
+          "viewBox": "0 0 50 90"
+        }
+      ]
+    }
+  ]
+}

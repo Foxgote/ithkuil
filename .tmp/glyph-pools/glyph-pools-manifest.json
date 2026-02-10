@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-02-10T06:59:15.640Z",
+  "perPool": 1,
+  "total": 5,
+  "seed": null,
+  "resolvedSeed": 2180147101,
+  "banCurlyDiacritics": true,
+  "widthUnits": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "widthThresholds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "widthRule": "byGlyphCount: w1=1, w2=2, w3=3, w4=4, w5=5+",
+  "poolTargetHeights": {
+    "1": 0.5336067592238781,
+    "2": 0.5336067592238781,
+    "3": 0.5336067592238781,
+    "4": 0.5336067592238781,
+    "5": 0.5336067592238781
+  },
+  "singleSpriteFile": "glyph-pool.svg",
+  "poolFiles": {
+    "1": "glyph-pool-w1.svg",
+    "2": "glyph-pool-w2.svg",
+    "3": "glyph-pool-w3.svg",
+    "4": "glyph-pool-w4.svg",
+    "5": "glyph-pool-w5.svg"
+  },
+  "pools": {
+    "1": [
+      "g-0068"
+    ],
+    "2": [
+      "g-0001"
+    ],
+    "3": [
+      "g-0050"
+    ],
+    "4": [
+      "g-0172"
+    ],
+    "5": [
+      "g-1119"
+    ]
+  },
+  "items": [
+    {
+      "id": "g-0068",
+      "word": "ho",
+      "hash": "f50bddb7",
+      "glyphCount": 1,
+      "normalizedScale": 1.6733313007020567,
+      "normalizedWidth": 0.48805496270476656,
+      "normalizedHeight": 0.5336067592238781,
+      "normalizedAspect": 0.9146341463414633,
+      "widthUnit": 1,
+      "heightNormalizeScale": 0.6204729758417187
+    },
+    {
+      "id": "g-0001",
+      "word": "klu",
+      "hash": "aad3a8cd",
+      "glyphCount": 2,
+      "normalizedScale": 0.662180052811431,
+      "normalizedWidth": 0.415655937316842,
+      "normalizedHeight": 0.5336067592238781,
+      "normalizedAspect": 0.7789555325749741,
+      "widthUnit": 2,
+      "heightNormalizeScale": 0.6204729758417187
+    },
+    {
+      "id": "g-0050",
+      "word": "drouvaid",
+      "hash": "3e28a105",
+      "glyphCount": 3,
+      "normalizedScale": 0.6003076041268629,
+      "normalizedWidth": 0.6035592703158835,
+      "normalizedHeight": 0.5336067592238781,
+      "normalizedAspect": 1.13109375,
+      "widthUnit": 3,
+      "heightNormalizeScale": 0.7018131050184692
+    },
+    {
+      "id": "g-0172",
+      "word": "neigandraisn",
+      "hash": "dad8ed6c",
+      "glyphCount": 4,
+      "normalizedScale": 0.5694336247831514,
+      "normalizedWidth": 0.7450089924246229,
+      "normalizedHeight": 0.5336067592238781,
+      "normalizedAspect": 1.3961760782570027,
+      "widthUnit": 4,
+      "heightNormalizeScale": 0.8662895260751431
+    },
+    {
+      "id": "g-1119",
+      "word": "fidiosdeldaj",
+      "hash": "ec34eae6",
+      "glyphCount": 5,
+      "normalizedScale": 0.5257928926251433,
+      "normalizedWidth": 0.86,
+      "normalizedHeight": 0.5336067592238781,
+      "normalizedAspect": 1.6116737375119745,
+      "widthUnit": 5,
+      "heightNormalizeScale": 1
+    }
+  ]
+}

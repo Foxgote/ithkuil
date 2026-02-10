@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-02-10T11:49:26.575Z",
+  "count": 1,
+  "minGlyphs": 1,
+  "maxGlyphs": 1,
+  "seed": null,
+  "resolvedSeed": 3683124257,
+  "seedSummary": "random (resolved=3683124257)",
+  "outDir": ".tmp\\one-glyph-test",
+  "items": [
+    {
+      "id": "phrase-001",
+      "phrase": "ho",
+      "hash": "1b7ac19b",
+      "glyphCount": 1,
+      "phraseFile": "phrases/phrase-001/phrase.svg",
+      "phraseWidth": 30,
+      "phraseHeight": 17.4,
+      "phraseViewBox": "0 0 30 17.4",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-001/glyph-01.svg",
+          "width": 30,
+          "height": 17.4,
+          "viewBox": "0 0 30 17.4"
+        }
+      ]
+    }
+  ]
+}

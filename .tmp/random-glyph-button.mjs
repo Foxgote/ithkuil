@@ -56387,6 +56387,134 @@ function renderWord(word, mount2, label2) {
   mount2.appendChild(svg3);
   label2.textContent = `Word: ${word}`;
 }
+async function loadBatchPreview(mount2, label2) {
+  const candidates = [
+    "./.tmp/ithkuil-glyph-phrases/manifest.json",
+    "./.tmp/seed-test/manifest.json"
+  ];
+  let manifest;
+  let basePath = "";
+  for (const path of candidates) {
+    try {
+      const res = await fetch(path, { cache: "no-store" });
+      if (!res.ok) {
+        continue;
+      }
+      manifest = await res.json();
+      basePath = path.replace(/manifest\.json$/, "");
+      break;
+    } catch {
+    }
+  }
+  if (!manifest || !Array.isArray(manifest.items) || manifest.items.length == 0) {
+    label2.textContent = "Batch preview: no manifest found. Put one at .tmp/ithkuil-glyph-phrases/manifest.json or .tmp/seed-test/manifest.json";
+    return;
+  }
+  const glyphEntries = manifest.items.flatMap(
+    (item) => item.glyphs.map((glyph) => ({
+      phraseId: item.id,
+      phrase: item.phrase,
+      glyphCount: item.glyphCount,
+      phraseWidth: item.phraseWidth ?? 150,
+      phraseHeight: item.phraseHeight ?? 70,
+      glyphIndex: glyph.index,
+      file: glyph.file,
+      rawWidth: glyph.rawWidth ?? glyph.width,
+      rawHeight: glyph.rawHeight ?? glyph.height,
+      width: glyph.width,
+      height: glyph.height
+    }))
+  );
+  const phraseCardWidth = 150;
+  const phraseCardHeight = 70;
+  label2.textContent = `Batch compare preview: phrases=${manifest.items.length}, glyphs=${glyphEntries.length}, unifiedH=${manifest.glyphTargetHeight}, seed=${manifest.resolvedSeed}`;
+  mount2.innerHTML = "";
+  mount2.style.display = "flex";
+  mount2.style.flexDirection = "column";
+  mount2.style.gap = "8px";
+  const phraseHeading = document.createElement("div");
+  phraseHeading.textContent = "Phrases";
+  phraseHeading.style.cssText = "font-size:12px;font-weight:600;color:#2f3f50";
+  const phraseLine = document.createElement("div");
+  phraseLine.style.cssText = "display:flex;gap:8px;overflow-x:auto;padding:10px;background:#ffffff;border:1px solid #d7dce3;border-radius:10px";
+  for (const item of manifest.items) {
+    const card = document.createElement("article");
+    card.style.cssText = "flex:0 0 auto;width:150px;padding:8px;border:1px solid #e1e6ed;border-radius:8px;background:#fbfdff";
+    const img = document.createElement("img");
+    img.src = `${basePath}${item.phraseFile}`;
+    img.alt = `${item.id} phrase`;
+    img.loading = "lazy";
+    img.style.cssText = "display:block;width:100%;height:70px;object-fit:contain;object-position:center bottom";
+    const title = document.createElement("div");
+    title.textContent = `${item.id} (${item.glyphCount})`;
+    title.style.cssText = "margin-top:6px;font-size:11px;color:#1f4d89;line-height:1.2";
+    const phrase = document.createElement("div");
+    phrase.textContent = item.phrase;
+    phrase.title = item.phrase;
+    phrase.style.cssText = "margin-top:4px;font-size:10px;color:#5b6b7a;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis";
+    card.append(img, title, phrase);
+    phraseLine.appendChild(card);
+  }
+  const glyphHeading = document.createElement("div");
+  glyphHeading.textContent = "Single Glyph Slices";
+  glyphHeading.style.cssText = "font-size:12px;font-weight:600;color:#2f3f50";
+  const glyphLine = document.createElement("div");
+  glyphLine.style.cssText = "display:flex;gap:8px;overflow-x:auto;padding:10px;background:#ffffff;border:1px solid #d7dce3;border-radius:10px";
+  const glyphCardRenderHeight = 70;
+  for (const entry of glyphEntries) {
+    const renderHeight = glyphCardRenderHeight;
+    const renderWidth = Math.max(
+      18,
+      Math.round(entry.width / Math.max(1, entry.height) * renderHeight)
+    );
+    const card = document.createElement("article");
+    card.style.cssText = `flex:0 0 auto;width:${renderWidth + 16}px;padding:8px;border:1px solid #e1e6ed;border-radius:8px;background:#fbfdff`;
+    const img = document.createElement("img");
+    img.src = `${basePath}${entry.file}`;
+    img.alt = `${entry.phraseId} glyph-${String(entry.glyphIndex).padStart(2, "0")}`;
+    img.loading = "lazy";
+    img.style.cssText = `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center bottom`;
+    const title = document.createElement("div");
+    title.textContent = `${entry.phraseId} g${entry.glyphIndex}`;
+    title.style.cssText = "margin-top:6px;font-size:11px;color:#1f4d89;line-height:1.2";
+    const phrase = document.createElement("div");
+    phrase.textContent = `${Math.round(entry.width)}x${Math.round(entry.height)}`;
+    phrase.title = `${entry.phrase} (${entry.glyphCount})`;
+    phrase.style.cssText = "margin-top:4px;font-size:10px;color:#5b6b7a;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis";
+    card.append(img, title, phrase);
+    glyphLine.appendChild(card);
+  }
+  const sentenceHeading = document.createElement("div");
+  sentenceHeading.textContent = "Single Slice Sentence";
+  sentenceHeading.style.cssText = "font-size:12px;font-weight:600;color:#2f3f50";
+  const sentenceContainer = document.createElement("div");
+  sentenceContainer.style.cssText = "padding:10px;background:#ffffff;border:1px solid #d7dce3;border-radius:10px";
+  const sentenceParagraph = document.createElement("p");
+  sentenceParagraph.style.cssText = "margin:0;display:flex;gap:4px;align-items:flex-end;overflow-x:auto;padding:2px 0;white-space:nowrap";
+  const sentenceGlyphHeight = 52;
+  for (const entry of glyphEntries) {
+    const renderHeight = sentenceGlyphHeight;
+    const renderWidth = Math.max(
+      12,
+      Math.round(entry.width / Math.max(1, entry.height) * renderHeight)
+    );
+    const glyphImg = document.createElement("img");
+    glyphImg.src = `${basePath}${entry.file}`;
+    glyphImg.alt = `${entry.phraseId} glyph-${String(entry.glyphIndex).padStart(2, "0")}`;
+    glyphImg.loading = "lazy";
+    glyphImg.style.cssText = `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center bottom;flex:0 0 auto`;
+    sentenceParagraph.appendChild(glyphImg);
+  }
+  sentenceContainer.appendChild(sentenceParagraph);
+  mount2.append(
+    phraseHeading,
+    phraseLine,
+    glyphHeading,
+    glyphLine,
+    sentenceHeading,
+    sentenceContainer
+  );
+}
 var app = document.createElement("main");
 app.style.cssText = "min-height:100vh;display:flex;align-items:center;justify-content:center;background:#edf1f5;padding:24px;font-family:ui-monospace,Consolas,Menlo,monospace";
 var panel = document.createElement("section");
@@ -56416,6 +56544,11 @@ altButton.style.cssText = "padding:10px 14px;border:1px solid #9fc2df;background
 var altLabel = document.createElement("div");
 altLabel.style.cssText = "font-size:13px;color:#334155;word-break:break-word";
 var altMount = document.createElement("div");
+var batchDivider = document.createElement("hr");
+batchDivider.style.cssText = "border:none;border-top:1px solid #dbe1e8;margin:6px 0";
+var batchLabel = document.createElement("div");
+batchLabel.style.cssText = "font-size:13px;color:#334155;word-break:break-word";
+var batchMount = document.createElement("div");
 button.onclick = () => {
   renderWord(randomWord(), mount, label);
 };
@@ -56437,9 +56570,21 @@ altButton.onclick = () => {
 };
 controls.append(button, input, submit);
 altControls.append(altButton);
-panel.append(controls, label, mount, divider, altControls, altLabel, altMount);
+panel.append(
+  controls,
+  label,
+  mount,
+  divider,
+  altControls,
+  altLabel,
+  altMount,
+  batchDivider,
+  batchLabel,
+  batchMount
+);
 app.appendChild(panel);
 document.body.style.margin = "0";
 document.body.appendChild(app);
 renderWord(randomWord(), mount, label);
 renderWord(randomScifiWord(), altMount, altLabel);
+void loadBatchPreview(batchMount, batchLabel);

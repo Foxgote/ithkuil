@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ithkuil Phrase Batch Preview</title>
+    <style>
+      :root {
+        --bg: #0d1117;
+        --panel: #161b22;
+        --text: #e6edf3;
+        --muted: #8b949e;
+        --border: #30363d;
+        --accent: #7ee787;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          "Segoe UI",
+          Tahoma,
+          Geneva,
+          Verdana,
+          sans-serif;
+        color: var(--text);
+        background: linear-gradient(160deg, #0d1117 0%, #101620 100%);
+      }
+
+      .wrap {
+        max-width: 100%;
+        padding: 16px;
+      }
+
+      .head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 12px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .line {
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        overflow-x: auto;
+        padding: 14px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: color-mix(in srgb, var(--panel) 90%, black);
+      }
+
+      .line::-webkit-scrollbar {
+        height: 10px;
+      }
+
+      .line::-webkit-scrollbar-thumb {
+        background: var(--border);
+        border-radius: 99px;
+      }
+
+      .item {
+        flex: 0 0 auto;
+        min-width: 84px;
+        max-width: 140px;
+        padding: 8px 8px 6px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: #0f141b;
+      }
+
+      .item img {
+        display: block;
+        width: 100%;
+        height: 72px;
+        object-fit: contain;
+        object-position: center bottom;
+        filter: brightness(1.05) contrast(1.05);
+      }
+
+      .id {
+        margin-top: 6px;
+        font-size: 11px;
+        line-height: 1.2;
+        color: var(--accent);
+      }
+
+      .phrase {
+        margin-top: 4px;
+        font-size: 10px;
+        line-height: 1.3;
+        color: var(--muted);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <div class="head">
+        <h1>Ithkuil Batch (Straight Line)</h1>
+        <div class="meta" id="meta">loading...</div>
+      </div>
+      <section class="line" id="line">
+        <article class="item"><img alt="phrase-001" src="./phrases/phrase-001/phrase.svg" /><div class="id">phrase-001</div></article>
+        <article class="item"><img alt="phrase-002" src="./phrases/phrase-002/phrase.svg" /><div class="id">phrase-002</div></article>
+        <article class="item"><img alt="phrase-003" src="./phrases/phrase-003/phrase.svg" /><div class="id">phrase-003</div></article>
+        <article class="item"><img alt="phrase-004" src="./phrases/phrase-004/phrase.svg" /><div class="id">phrase-004</div></article>
+        <article class="item"><img alt="phrase-005" src="./phrases/phrase-005/phrase.svg" /><div class="id">phrase-005</div></article>
+        <article class="item"><img alt="phrase-006" src="./phrases/phrase-006/phrase.svg" /><div class="id">phrase-006</div></article>
+        <article class="item"><img alt="phrase-007" src="./phrases/phrase-007/phrase.svg" /><div class="id">phrase-007</div></article>
+        <article class="item"><img alt="phrase-008" src="./phrases/phrase-008/phrase.svg" /><div class="id">phrase-008</div></article>
+        <article class="item"><img alt="phrase-009" src="./phrases/phrase-009/phrase.svg" /><div class="id">phrase-009</div></article>
+        <article class="item"><img alt="phrase-010" src="./phrases/phrase-010/phrase.svg" /><div class="id">phrase-010</div></article>
+        <article class="item"><img alt="phrase-011" src="./phrases/phrase-011/phrase.svg" /><div class="id">phrase-011</div></article>
+        <article class="item"><img alt="phrase-012" src="./phrases/phrase-012/phrase.svg" /><div class="id">phrase-012</div></article>
+        <article class="item"><img alt="phrase-013" src="./phrases/phrase-013/phrase.svg" /><div class="id">phrase-013</div></article>
+        <article class="item"><img alt="phrase-014" src="./phrases/phrase-014/phrase.svg" /><div class="id">phrase-014</div></article>
+        <article class="item"><img alt="phrase-015" src="./phrases/phrase-015/phrase.svg" /><div class="id">phrase-015</div></article>
+        <article class="item"><img alt="phrase-016" src="./phrases/phrase-016/phrase.svg" /><div class="id">phrase-016</div></article>
+        <article class="item"><img alt="phrase-017" src="./phrases/phrase-017/phrase.svg" /><div class="id">phrase-017</div></article>
+        <article class="item"><img alt="phrase-018" src="./phrases/phrase-018/phrase.svg" /><div class="id">phrase-018</div></article>
+        <article class="item"><img alt="phrase-019" src="./phrases/phrase-019/phrase.svg" /><div class="id">phrase-019</div></article>
+        <article class="item"><img alt="phrase-020" src="./phrases/phrase-020/phrase.svg" /><div class="id">phrase-020</div></article>
+      </section>
+    </main>
+
+    <script>
+      async function run() {
+        const meta = document.getElementById("meta")
+        const line = document.getElementById("line")
+
+        try {
+          const res = await fetch("./manifest.json", { cache: "no-store" })
+          if (!res.ok) {
+            throw new Error("manifest fetch failed")
+          }
+
+          const manifest = await res.json()
+          const items = Array.isArray(manifest.items) ? manifest.items : []
+
+          meta.textContent =
+            `count=${items.length} | glyphs=${manifest.minGlyphs}-${manifest.maxGlyphs} | seed=${manifest.resolvedSeed ?? "n/a"}`
+
+          const frag = document.createDocumentFragment()
+
+          for (const item of items) {
+            const card = document.createElement("article")
+            card.className = "item"
+
+            const img = document.createElement("img")
+            img.alt = item.id
+            img.loading = "lazy"
+            img.src = `./${item.phraseFile}`
+
+            const id = document.createElement("div")
+            id.className = "id"
+            id.textContent = `${item.id} (${item.glyphCount})`
+
+            const phrase = document.createElement("div")
+            phrase.className = "phrase"
+            phrase.textContent = item.phrase
+            phrase.title = item.phrase
+
+            card.append(img, id, phrase)
+            frag.appendChild(card)
+          }
+
+          line.replaceChildren(frag)
+        } catch (error) {
+          meta.textContent = "static preview loaded (manifest unavailable)"
+          console.error(error)
+        }
+      }
+
+      run()
+    </script>
+  </body>
+</html>

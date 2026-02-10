@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b",
+    "build:glyph-pools": "npm run build && node tools/build-glyph-pools.mjs",
     "cleanup": "rm -f data/**/*.js; rm -f generate/**/*.js; rm -f gloss/**/*.js; rm -f parse/**/*.js; rm -f script/**/*.js; rm -f test/**/*.js; rm -f ungloss/**/*.js; rm -f *.js",
     "cleanup2": "rm -f data/**/*.d.ts; rm -f generate/**/*.d.ts; rm -f gloss/**/*.d.ts; rm -f parse/**/*.d.ts; rm -f script/**/*.d.ts; rm -f test/**/*.d.ts; rm -f ungloss/**/*.d.ts; rm -f *.d.ts",
     "fetch:affixes": "tsc -b && rm -f ./data/affixes-latest.ts && node -e \"import('./data/affixes.js').then(x => x.getAffixes(process.env.ITHKUIL_DATA_API_KEY)).then(x => fs.writeFileSync('./data/affixes-latest.ts', 'import type { AffixEntry } from \\'./affixes.js\\'\\nimport { deepFreeze } from \\'../generate/helpers/deep-freeze.js\\'\\n\\nexport const affixes = /* @__PURE__ */ deepFreeze<AffixEntry[]>(' + JSON.stringify(x).replaceAll('null','') + ')'))\"",
@@ -42,6 +43,7 @@
     "esbuild": "^0.18.11",
     "prettier": "^3.4.2",
     "prettier-plugin-jsdoc": "^1.3.0",
+    "svgdom": "^0.1.23",
     "typescript": "^5.7.2"
   },
   "dependencies": {

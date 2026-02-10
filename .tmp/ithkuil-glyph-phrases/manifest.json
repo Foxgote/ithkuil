@@ -1,0 +1,1246 @@
+{
+  "generatedAt": "2026-02-10T13:30:42.919Z",
+  "count": 20,
+  "minGlyphs": 1,
+  "maxGlyphs": 10,
+  "seed": "676767",
+  "resolvedSeed": 676767,
+  "seedSummary": "676767 (resolved=676767)",
+  "banCurlyDiacritics": true,
+  "banDotDiacritic": false,
+  "minRawGlyphHeight": 40,
+  "glyphTargetHeight": 149.85,
+  "outDir": "..\\Foxgote.com2\\public\\ithkuil-glyph-phrases",
+  "items": [
+    {
+      "id": "phrase-001",
+      "phrase": "udr",
+      "hash": "5e4e4e68",
+      "glyphCount": 1,
+      "phraseFile": "phrases/phrase-001/phrase.svg",
+      "phraseWidth": 50,
+      "phraseHeight": 110,
+      "phraseViewBox": "0 0 50 110",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-001/glyph-01.svg",
+          "rawWidth": 50,
+          "rawHeight": 110,
+          "width": 50,
+          "height": 149.85,
+          "viewBox": "0 0 50 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-002",
+      "phrase": "oltreit",
+      "hash": "8d091893",
+      "glyphCount": 2,
+      "phraseFile": "phrases/phrase-002/phrase.svg",
+      "phraseWidth": 170.05,
+      "phraseHeight": 115,
+      "phraseViewBox": "0 0 170.05 115",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-002/glyph-01.svg",
+          "rawWidth": 95.05,
+          "rawHeight": 95,
+          "width": 95.05,
+          "height": 149.85,
+          "viewBox": "0 0 95.05 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-002/glyph-02.svg",
+          "rawWidth": 65,
+          "rawHeight": 90,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-003",
+      "phrase": "xeotas",
+      "hash": "e0d55d7d",
+      "glyphCount": 3,
+      "phraseFile": "phrases/phrase-003/phrase.svg",
+      "phraseWidth": 220.65,
+      "phraseHeight": 132.47500000000002,
+      "phraseViewBox": "0 0 220.65 132.475",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-003/glyph-01.svg",
+          "rawWidth": 70,
+          "rawHeight": 107.5,
+          "width": 70,
+          "height": 149.85,
+          "viewBox": "0 0 70 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-003/glyph-02.svg",
+          "rawWidth": 75.65,
+          "rawHeight": 70.05000000000001,
+          "width": 75.65,
+          "height": 149.85,
+          "viewBox": "0 0 75.65 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-003/glyph-03.svg",
+          "rawWidth": 55,
+          "rawHeight": 94.95000000000002,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-004",
+      "phrase": "blipriot",
+      "hash": "cf3a05c8",
+      "glyphCount": 4,
+      "phraseFile": "phrases/phrase-004/phrase.svg",
+      "phraseWidth": 246.65000000000003,
+      "phraseHeight": 110,
+      "phraseViewBox": "0 0 246.65 110",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-004/glyph-01.svg",
+          "rawWidth": 72.15,
+          "rawHeight": 72.5,
+          "width": 72.15,
+          "height": 149.85,
+          "viewBox": "0 0 72.15 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-004/glyph-02.svg",
+          "rawWidth": 59.45,
+          "rawHeight": 90,
+          "width": 59.45,
+          "height": 149.85,
+          "viewBox": "0 0 59.45 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-004/glyph-03.svg",
+          "rawWidth": 35.05,
+          "rawHeight": 87.7,
+          "width": 35.05,
+          "height": 149.85,
+          "viewBox": "0 0 35.05 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-004/glyph-04.svg",
+          "rawWidth": 50,
+          "rawHeight": 90,
+          "width": 50,
+          "height": 149.85,
+          "viewBox": "0 0 50 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-005",
+      "phrase": "me bplkvo",
+      "hash": "eece084f",
+      "glyphCount": 5,
+      "phraseFile": "phrases/phrase-005/phrase.svg",
+      "phraseWidth": 268.65,
+      "phraseHeight": 120,
+      "phraseViewBox": "0 0 268.65 120",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-005/glyph-01.svg",
+          "rawWidth": 20,
+          "rawHeight": 80,
+          "width": 20,
+          "height": 149.85,
+          "viewBox": "0 0 20 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-005/glyph-02.svg",
+          "rawWidth": 40,
+          "rawHeight": 90,
+          "width": 40,
+          "height": 149.85,
+          "viewBox": "0 0 40 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-005/glyph-03.svg",
+          "rawWidth": 32.4,
+          "rawHeight": 80,
+          "width": 32.4,
+          "height": 149.85,
+          "viewBox": "0 0 32.4 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-005/glyph-04.svg",
+          "rawWidth": 85.05000000000001,
+          "rawHeight": 120,
+          "width": 85.05000000000001,
+          "height": 149.85,
+          "viewBox": "0 0 85.05 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-005/glyph-05.svg",
+          "rawWidth": 51.2,
+          "rawHeight": 80.994906870335,
+          "width": 51.2,
+          "height": 149.85,
+          "viewBox": "0 0 51.2 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-006",
+      "phrase": "ákstila ko mouskaa",
+      "hash": "6d598d5a",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-006/phrase.svg",
+      "phraseWidth": 399.25,
+      "phraseHeight": 115,
+      "phraseViewBox": "0 0 399.25 115",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-006/glyph-01.svg",
+          "rawWidth": 55,
+          "rawHeight": 90,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-006/glyph-02.svg",
+          "rawWidth": 67.4,
+          "rawHeight": 79.94999999999999,
+          "width": 67.4,
+          "height": 149.85,
+          "viewBox": "0 0 67.4 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-006/glyph-03.svg",
+          "rawWidth": 32.4,
+          "rawHeight": 80,
+          "width": 32.4,
+          "height": 149.85,
+          "viewBox": "0 0 32.4 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-006/glyph-04.svg",
+          "rawWidth": 75.65,
+          "rawHeight": 90.05,
+          "width": 75.65,
+          "height": 149.85,
+          "viewBox": "0 0 75.65 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-006/glyph-05.svg",
+          "rawWidth": 81.3,
+          "rawHeight": 103.7,
+          "width": 81.3,
+          "height": 149.85,
+          "viewBox": "0 0 81.3 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-006/glyph-06.svg",
+          "rawWidth": 37.5,
+          "rawHeight": 70,
+          "width": 37.5,
+          "height": 149.85,
+          "viewBox": "0 0 37.5 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-007",
+      "phrase": "vav walfslei'kouwo",
+      "hash": "1872f69e",
+      "glyphCount": 7,
+      "phraseFile": "phrases/phrase-007/phrase.svg",
+      "phraseWidth": 493.20000000000005,
+      "phraseHeight": 140.05,
+      "phraseViewBox": "0 0 493.2 140.05",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-007/glyph-01.svg",
+          "rawWidth": 73.8,
+          "rawHeight": 108.65,
+          "width": 73.8,
+          "height": 149.85,
+          "viewBox": "0 0 73.8 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-007/glyph-02.svg",
+          "rawWidth": 60,
+          "rawHeight": 70,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-007/glyph-03.svg",
+          "rawWidth": 65,
+          "rawHeight": 70,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-007/glyph-04.svg",
+          "rawWidth": 75,
+          "rawHeight": 100,
+          "width": 75,
+          "height": 149.85,
+          "viewBox": "0 0 75 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-007/glyph-05.svg",
+          "rawWidth": 20,
+          "rawHeight": 90,
+          "width": 20,
+          "height": 149.85,
+          "viewBox": "0 0 20 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-007/glyph-06.svg",
+          "rawWidth": 75.65,
+          "rawHeight": 140.05,
+          "width": 75.65,
+          "height": 149.85,
+          "viewBox": "0 0 75.65 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-007/glyph-07.svg",
+          "rawWidth": 63.75,
+          "rawHeight": 48.7,
+          "width": 63.75,
+          "height": 149.85,
+          "viewBox": "0 0 63.75 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-008",
+      "phrase": "cvaet smo hluespystp",
+      "hash": "e55e2db4",
+      "glyphCount": 8,
+      "phraseFile": "phrases/phrase-008/phrase.svg",
+      "phraseWidth": 497.3,
+      "phraseHeight": 134.97500000000002,
+      "phraseViewBox": "0 0 497.3 134.975",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-008/glyph-01.svg",
+          "rawWidth": 65,
+          "rawHeight": 70,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-008/glyph-02.svg",
+          "rawWidth": 67.65,
+          "rawHeight": 80,
+          "width": 67.65,
+          "height": 149.85,
+          "viewBox": "0 0 67.65 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-008/glyph-03.svg",
+          "rawWidth": 32.4,
+          "rawHeight": 80,
+          "width": 32.4,
+          "height": 149.85,
+          "viewBox": "0 0 32.4 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-008/glyph-04.svg",
+          "rawWidth": 55,
+          "rawHeight": 89.94999999999999,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-008/glyph-05.svg",
+          "rawWidth": 73.8,
+          "rawHeight": 128.65,
+          "width": 73.8,
+          "height": 149.85,
+          "viewBox": "0 0 73.8 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-008/glyph-06.svg",
+          "rawWidth": 67.5,
+          "rawHeight": 88.7,
+          "width": 67.5,
+          "height": 149.85,
+          "viewBox": "0 0 67.5 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-008/glyph-07.svg",
+          "rawWidth": 28.8,
+          "rawHeight": 75.85,
+          "width": 28.8,
+          "height": 149.85,
+          "viewBox": "0 0 28.8 149.85"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-008/glyph-08.svg",
+          "rawWidth": 37.15,
+          "rawHeight": 70,
+          "width": 37.15,
+          "height": 149.85,
+          "viewBox": "0 0 37.15 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-009",
+      "phrase": "pi čpřile jkrtho'pk re",
+      "hash": "a6b4bcb4",
+      "glyphCount": 9,
+      "phraseFile": "phrases/phrase-009/phrase.svg",
+      "phraseWidth": 595.8000000000001,
+      "phraseHeight": 127.6,
+      "phraseViewBox": "0 0 595.8 127.6",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-009/glyph-01.svg",
+          "rawWidth": 20,
+          "rawHeight": 88.8,
+          "width": 20,
+          "height": 149.85,
+          "viewBox": "0 0 20 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-009/glyph-02.svg",
+          "rawWidth": 60,
+          "rawHeight": 90,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-009/glyph-03.svg",
+          "rawWidth": 55,
+          "rawHeight": 70,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-009/glyph-04.svg",
+          "rawWidth": 70,
+          "rawHeight": 107.6,
+          "width": 70,
+          "height": 149.85,
+          "viewBox": "0 0 70 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-009/glyph-05.svg",
+          "rawWidth": 96.29999999999998,
+          "rawHeight": 95,
+          "width": 96.29999999999998,
+          "height": 149.85,
+          "viewBox": "0 0 96.3 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-009/glyph-06.svg",
+          "rawWidth": 93.15,
+          "rawHeight": 85.05000000000001,
+          "width": 93.15,
+          "height": 149.85,
+          "viewBox": "0 0 93.15 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-009/glyph-07.svg",
+          "rawWidth": 51.35,
+          "rawHeight": 92.25,
+          "width": 51.35,
+          "height": 149.85,
+          "viewBox": "0 0 51.35 149.85"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-009/glyph-08.svg",
+          "rawWidth": 20,
+          "rawHeight": 80,
+          "width": 20,
+          "height": 149.85,
+          "viewBox": "0 0 20 149.85"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-009/glyph-09.svg",
+          "rawWidth": 50,
+          "rawHeight": 90,
+          "width": 50,
+          "height": 149.85,
+          "viewBox": "0 0 50 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-010",
+      "phrase": "non fsnkaesk ble ffgreola",
+      "hash": "a21c2f95",
+      "glyphCount": 10,
+      "phraseFile": "phrases/phrase-010/phrase.svg",
+      "phraseWidth": 638.3999999999999,
+      "phraseHeight": 132.5,
+      "phraseViewBox": "0 0 638.4 132.5",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-010/glyph-01.svg",
+          "rawWidth": 112.54999999999998,
+          "rawHeight": 95,
+          "width": 112.54999999999998,
+          "height": 149.85,
+          "viewBox": "0 0 112.55 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-010/glyph-02.svg",
+          "rawWidth": 37.7,
+          "rawHeight": 69.85,
+          "width": 37.7,
+          "height": 149.85,
+          "viewBox": "0 0 37.7 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-010/glyph-03.svg",
+          "rawWidth": 73.8,
+          "rawHeight": 77.5,
+          "width": 73.8,
+          "height": 149.85,
+          "viewBox": "0 0 73.8 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-010/glyph-04.svg",
+          "rawWidth": 55,
+          "rawHeight": 87.44999999999999,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-010/glyph-05.svg",
+          "rawWidth": 32.4,
+          "rawHeight": 80,
+          "width": 32.4,
+          "height": 149.85,
+          "viewBox": "0 0 32.4 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-010/glyph-06.svg",
+          "rawWidth": 20,
+          "rawHeight": 80,
+          "width": 20,
+          "height": 149.85,
+          "viewBox": "0 0 20 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-010/glyph-07.svg",
+          "rawWidth": 59.45,
+          "rawHeight": 110,
+          "width": 59.45,
+          "height": 149.85,
+          "viewBox": "0 0 59.45 149.85"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-010/glyph-08.svg",
+          "rawWidth": 70,
+          "rawHeight": 107.5,
+          "width": 70,
+          "height": 149.85,
+          "viewBox": "0 0 70 149.85"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-010/glyph-09.svg",
+          "rawWidth": 60,
+          "rawHeight": 88.8,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 10,
+          "file": "phrases/phrase-010/glyph-10.svg",
+          "rawWidth": 27.5,
+          "rawHeight": 90,
+          "width": 27.5,
+          "height": 149.85,
+          "viewBox": "0 0 27.5 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-011",
+      "phrase": "utr",
+      "hash": "9865b065",
+      "glyphCount": 1,
+      "phraseFile": "phrases/phrase-011/phrase.svg",
+      "phraseWidth": 50,
+      "phraseHeight": 110,
+      "phraseViewBox": "0 0 50 110",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-011/glyph-01.svg",
+          "rawWidth": 50,
+          "rawHeight": 110,
+          "width": 50,
+          "height": 149.85,
+          "viewBox": "0 0 50 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-012",
+      "phrase": "áļtela",
+      "hash": "cb89e78f",
+      "glyphCount": 2,
+      "phraseFile": "phrases/phrase-012/phrase.svg",
+      "phraseWidth": 131.3,
+      "phraseHeight": 90,
+      "phraseViewBox": "0 0 131.3 90",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-012/glyph-01.svg",
+          "rawWidth": 70,
+          "rawHeight": 90,
+          "width": 70,
+          "height": 149.85,
+          "viewBox": "0 0 70 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-012/glyph-02.svg",
+          "rawWidth": 51.3,
+          "rawHeight": 70,
+          "width": 51.3,
+          "height": 149.85,
+          "viewBox": "0 0 51.3 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-013",
+      "phrase": "waţpţiwa",
+      "hash": "da69bf1a",
+      "glyphCount": 3,
+      "phraseFile": "phrases/phrase-013/phrase.svg",
+      "phraseWidth": 215.10000000000002,
+      "phraseHeight": 95.10000000000001,
+      "phraseViewBox": "0 0 215.1 95.1",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-013/glyph-01.svg",
+          "rawWidth": 65,
+          "rawHeight": 70,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-013/glyph-02.svg",
+          "rawWidth": 66.35,
+          "rawHeight": 95.10000000000001,
+          "width": 66.35,
+          "height": 149.85,
+          "viewBox": "0 0 66.35 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-013/glyph-03.svg",
+          "rawWidth": 63.75,
+          "rawHeight": 50,
+          "width": 63.75,
+          "height": 149.85,
+          "viewBox": "0 0 63.75 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-014",
+      "phrase": "piobendweinj",
+      "hash": "6dd1ce3a",
+      "glyphCount": 4,
+      "phraseFile": "phrases/phrase-014/phrase.svg",
+      "phraseWidth": 272.79999999999995,
+      "phraseHeight": 149.925,
+      "phraseViewBox": "0 0 272.8 149.925",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-014/glyph-01.svg",
+          "rawWidth": 70,
+          "rawHeight": 90,
+          "width": 70,
+          "height": 149.85,
+          "viewBox": "0 0 70 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-014/glyph-02.svg",
+          "rawWidth": 60,
+          "rawHeight": 70,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-014/glyph-03.svg",
+          "rawWidth": 57.6,
+          "rawHeight": 133.7,
+          "width": 57.6,
+          "height": 149.85,
+          "viewBox": "0 0 57.6 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-014/glyph-04.svg",
+          "rawWidth": 55.199999999999996,
+          "rawHeight": 149.85,
+          "width": 55.199999999999996,
+          "height": 149.85,
+          "viewBox": "0 0 55.2 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-015",
+      "phrase": "jkrwsnbrrest",
+      "hash": "68e0c3d5",
+      "glyphCount": 5,
+      "phraseFile": "phrases/phrase-015/phrase.svg",
+      "phraseWidth": 343.15,
+      "phraseHeight": 115,
+      "phraseViewBox": "0 0 343.15 115",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-015/glyph-01.svg",
+          "rawWidth": 77.5,
+          "rawHeight": 95,
+          "width": 77.5,
+          "height": 149.85,
+          "viewBox": "0 0 77.5 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-015/glyph-02.svg",
+          "rawWidth": 93.15,
+          "rawHeight": 85.05000000000001,
+          "width": 93.15,
+          "height": 149.85,
+          "viewBox": "0 0 93.15 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-015/glyph-03.svg",
+          "rawWidth": 37.5,
+          "rawHeight": 86.4,
+          "width": 37.5,
+          "height": 149.85,
+          "viewBox": "0 0 37.5 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-015/glyph-04.svg",
+          "rawWidth": 60,
+          "rawHeight": 78.7,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-015/glyph-05.svg",
+          "rawWidth": 35,
+          "rawHeight": 110,
+          "width": 35,
+          "height": 149.85,
+          "viewBox": "0 0 35 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-016",
+      "phrase": "fu waňžgwui'kä",
+      "hash": "f62139ee",
+      "glyphCount": 6,
+      "phraseFile": "phrases/phrase-016/phrase.svg",
+      "phraseWidth": 373,
+      "phraseHeight": 138.85000000000002,
+      "phraseViewBox": "0 0 373 138.85",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-016/glyph-01.svg",
+          "rawWidth": 25,
+          "rawHeight": 70,
+          "width": 25,
+          "height": 149.85,
+          "viewBox": "0 0 25 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-016/glyph-02.svg",
+          "rawWidth": 60,
+          "rawHeight": 90,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-016/glyph-03.svg",
+          "rawWidth": 65,
+          "rawHeight": 70,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-016/glyph-04.svg",
+          "rawWidth": 67.35,
+          "rawHeight": 113.85000000000002,
+          "width": 67.35,
+          "height": 149.85,
+          "viewBox": "0 0 67.35 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-016/glyph-05.svg",
+          "rawWidth": 30,
+          "rawHeight": 86.4,
+          "width": 30,
+          "height": 149.85,
+          "viewBox": "0 0 30 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-016/glyph-06.svg",
+          "rawWidth": 75.65,
+          "rawHeight": 115.05000000000001,
+          "width": 75.65,
+          "height": 149.85,
+          "viewBox": "0 0 75.65 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-017",
+      "phrase": "le thai brkrwoudr",
+      "hash": "99b46092",
+      "glyphCount": 7,
+      "phraseFile": "phrases/phrase-017/phrase.svg",
+      "phraseWidth": 446.85,
+      "phraseHeight": 120,
+      "phraseViewBox": "0 0 446.85 120",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-017/glyph-01.svg",
+          "rawWidth": 20,
+          "rawHeight": 80,
+          "width": 20,
+          "height": 149.85,
+          "viewBox": "0 0 20 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-017/glyph-02.svg",
+          "rawWidth": 50,
+          "rawHeight": 90,
+          "width": 50,
+          "height": 149.85,
+          "viewBox": "0 0 50 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-017/glyph-03.svg",
+          "rawWidth": 35.05,
+          "rawHeight": 77.7,
+          "width": 35.05,
+          "height": 149.85,
+          "viewBox": "0 0 35.05 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-017/glyph-04.svg",
+          "rawWidth": 82.55,
+          "rawHeight": 106.4,
+          "width": 82.55,
+          "height": 149.85,
+          "viewBox": "0 0 82.55 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-017/glyph-05.svg",
+          "rawWidth": 76.80000000000001,
+          "rawHeight": 120,
+          "width": 76.80000000000001,
+          "height": 149.85,
+          "viewBox": "0 0 76.8 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-017/glyph-06.svg",
+          "rawWidth": 84.94999999999999,
+          "rawHeight": 80,
+          "width": 84.94999999999999,
+          "height": 149.85,
+          "viewBox": "0 0 84.95 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-017/glyph-07.svg",
+          "rawWidth": 37.5,
+          "rawHeight": 106.4,
+          "width": 37.5,
+          "height": 149.85,
+          "viewBox": "0 0 37.5 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-018",
+      "phrase": "wamžbre wágvbyaha zus",
+      "hash": "43ce0a73",
+      "glyphCount": 8,
+      "phraseFile": "phrases/phrase-018/phrase.svg",
+      "phraseWidth": 544.9000000000001,
+      "phraseHeight": 95.22500000000001,
+      "phraseViewBox": "0 0 544.9 95.225",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-018/glyph-01.svg",
+          "rawWidth": 65,
+          "rawHeight": 70,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-018/glyph-02.svg",
+          "rawWidth": 83.10000000000001,
+          "rawHeight": 90.05000000000001,
+          "width": 83.10000000000001,
+          "height": 149.85,
+          "viewBox": "0 0 83.1 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-018/glyph-03.svg",
+          "rawWidth": 27.5,
+          "rawHeight": 90,
+          "width": 27.5,
+          "height": 149.85,
+          "viewBox": "0 0 27.5 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-018/glyph-04.svg",
+          "rawWidth": 65,
+          "rawHeight": 90,
+          "width": 65,
+          "height": 149.85,
+          "viewBox": "0 0 65 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-018/glyph-05.svg",
+          "rawWidth": 61.8,
+          "rawHeight": 70,
+          "width": 61.8,
+          "height": 149.85,
+          "viewBox": "0 0 61.8 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-018/glyph-06.svg",
+          "rawWidth": 40,
+          "rawHeight": 80,
+          "width": 40,
+          "height": 149.85,
+          "viewBox": "0 0 40 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-018/glyph-07.svg",
+          "rawWidth": 82.5,
+          "rawHeight": 95,
+          "width": 82.5,
+          "height": 149.85,
+          "viewBox": "0 0 82.5 149.85"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-018/glyph-08.svg",
+          "rawWidth": 50,
+          "rawHeight": 70.45,
+          "width": 50,
+          "height": 149.85,
+          "viewBox": "0 0 50 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-019",
+      "phrase": "pudmekai vokliamsnakg snebrei",
+      "hash": "c70d1590",
+      "glyphCount": 9,
+      "phraseFile": "phrases/phrase-019/phrase.svg",
+      "phraseWidth": 703.1,
+      "phraseHeight": 140.075,
+      "phraseViewBox": "0 0 703.1 140.075",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-019/glyph-01.svg",
+          "rawWidth": 82.5,
+          "rawHeight": 95.05000000000001,
+          "width": 82.5,
+          "height": 149.85,
+          "viewBox": "0 0 82.5 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-019/glyph-02.svg",
+          "rawWidth": 60,
+          "rawHeight": 95,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-019/glyph-03.svg",
+          "rawWidth": 75.65,
+          "rawHeight": 115.05000000000001,
+          "width": 75.65,
+          "height": 149.85,
+          "viewBox": "0 0 75.65 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-019/glyph-04.svg",
+          "rawWidth": 87.5,
+          "rawHeight": 87.5,
+          "width": 87.5,
+          "height": 149.85,
+          "viewBox": "0 0 87.5 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-019/glyph-05.svg",
+          "rawWidth": 60,
+          "rawHeight": 70,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-019/glyph-06.svg",
+          "rawWidth": 55,
+          "rawHeight": 123.65,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-019/glyph-07.svg",
+          "rawWidth": 77.45000000000002,
+          "rawHeight": 95.05000000000001,
+          "width": 77.45000000000002,
+          "height": 149.85,
+          "viewBox": "0 0 77.45 149.85"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-019/glyph-08.svg",
+          "rawWidth": 70,
+          "rawHeight": 77.5,
+          "width": 70,
+          "height": 149.85,
+          "viewBox": "0 0 70 149.85"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-019/glyph-09.svg",
+          "rawWidth": 55,
+          "rawHeight": 123.64999999999999,
+          "width": 55,
+          "height": 149.85,
+          "viewBox": "0 0 55 149.85"
+        }
+      ]
+    },
+    {
+      "id": "phrase-020",
+      "phrase": "wichkhnnh fo bluvaichspou",
+      "hash": "a49a2027",
+      "glyphCount": 10,
+      "phraseFile": "phrases/phrase-020/phrase.svg",
+      "phraseWidth": 682.1999999999999,
+      "phraseHeight": 145,
+      "phraseViewBox": "0 0 682.2 145",
+      "glyphs": [
+        {
+          "index": 1,
+          "file": "phrases/phrase-020/glyph-01.svg",
+          "rawWidth": 69.3,
+          "rawHeight": 95,
+          "width": 69.3,
+          "height": 149.85,
+          "viewBox": "0 0 69.3 149.85"
+        },
+        {
+          "index": 2,
+          "file": "phrases/phrase-020/glyph-02.svg",
+          "rawWidth": 80,
+          "rawHeight": 80,
+          "width": 80,
+          "height": 149.85,
+          "viewBox": "0 0 80 149.85"
+        },
+        {
+          "index": 3,
+          "file": "phrases/phrase-020/glyph-03.svg",
+          "rawWidth": 42.55,
+          "rawHeight": 95.1,
+          "width": 42.55,
+          "height": 149.85,
+          "viewBox": "0 0 42.55 149.85"
+        },
+        {
+          "index": 4,
+          "file": "phrases/phrase-020/glyph-04.svg",
+          "rawWidth": 42.55,
+          "rawHeight": 95.1,
+          "width": 42.55,
+          "height": 149.85,
+          "viewBox": "0 0 42.55 149.85"
+        },
+        {
+          "index": 5,
+          "file": "phrases/phrase-020/glyph-05.svg",
+          "rawWidth": 32.4,
+          "rawHeight": 80,
+          "width": 32.4,
+          "height": 149.85,
+          "viewBox": "0 0 32.4 149.85"
+        },
+        {
+          "index": 6,
+          "file": "phrases/phrase-020/glyph-06.svg",
+          "rawWidth": 60,
+          "rawHeight": 90,
+          "width": 60,
+          "height": 149.85,
+          "viewBox": "0 0 60 149.85"
+        },
+        {
+          "index": 7,
+          "file": "phrases/phrase-020/glyph-07.svg",
+          "rawWidth": 91.3,
+          "rawHeight": 83.65,
+          "width": 91.3,
+          "height": 149.85,
+          "viewBox": "0 0 91.3 149.85"
+        },
+        {
+          "index": 8,
+          "file": "phrases/phrase-020/glyph-08.svg",
+          "rawWidth": 59.45,
+          "rawHeight": 145,
+          "width": 59.45,
+          "height": 149.85,
+          "viewBox": "0 0 59.45 149.85"
+        },
+        {
+          "index": 9,
+          "file": "phrases/phrase-020/glyph-09.svg",
+          "rawWidth": 77.5,
+          "rawHeight": 120,
+          "width": 77.5,
+          "height": 149.85,
+          "viewBox": "0 0 77.5 149.85"
+        },
+        {
+          "index": 10,
+          "file": "phrases/phrase-020/glyph-10.svg",
+          "rawWidth": 37.15,
+          "rawHeight": 70,
+          "width": 37.15,
+          "height": 149.85,
+          "viewBox": "0 0 37.15 149.85"
+        }
+      ]
+    }
+  ]
+}
