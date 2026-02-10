@@ -217,7 +217,7 @@ async function loadBatchPreview(mount: HTMLElement, label: HTMLElement) {
     img.alt = `${item.id} phrase`
     img.loading = "lazy"
     img.style.cssText =
-      "display:block;width:100%;height:70px;object-fit:contain;object-position:center bottom"
+      "display:block;width:100%;height:70px;object-fit:contain;object-position:center center"
 
     const title = document.createElement("div")
     title.textContent = `${item.id} (${item.glyphCount})`
@@ -258,7 +258,7 @@ async function loadBatchPreview(mount: HTMLElement, label: HTMLElement) {
     img.alt = `${entry.phraseId} glyph-${String(entry.glyphIndex).padStart(2, "0")}`
     img.loading = "lazy"
     img.style.cssText =
-      `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center bottom`
+      `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center center`
 
     const title = document.createElement("div")
     title.textContent = `${entry.phraseId} g${entry.glyphIndex}`
@@ -284,7 +284,7 @@ async function loadBatchPreview(mount: HTMLElement, label: HTMLElement) {
 
   const sentenceParagraph = document.createElement("p")
   sentenceParagraph.style.cssText =
-    "margin:0;display:flex;gap:4px;align-items:flex-end;overflow-x:auto;padding:2px 0;white-space:nowrap"
+    "margin:0;display:flex;gap:3px;align-items:flex-end;overflow-x:auto;padding:2px 0;white-space:nowrap"
   const sentenceGlyphHeight = 52
 
   for (const entry of glyphEntries) {
@@ -299,7 +299,7 @@ async function loadBatchPreview(mount: HTMLElement, label: HTMLElement) {
     glyphImg.alt = `${entry.phraseId} glyph-${String(entry.glyphIndex).padStart(2, "0")}`
     glyphImg.loading = "lazy"
     glyphImg.style.cssText =
-      `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center bottom;flex:0 0 auto`
+      `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center center;flex:0 0 auto`
     sentenceParagraph.appendChild(glyphImg)
   }
 

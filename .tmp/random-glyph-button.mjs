@@ -56444,7 +56444,7 @@ async function loadBatchPreview(mount2, label2) {
     img.src = `${basePath}${item.phraseFile}`;
     img.alt = `${item.id} phrase`;
     img.loading = "lazy";
-    img.style.cssText = "display:block;width:100%;height:70px;object-fit:contain;object-position:center bottom";
+    img.style.cssText = "display:block;width:100%;height:70px;object-fit:contain;object-position:center center";
     const title = document.createElement("div");
     title.textContent = `${item.id} (${item.glyphCount})`;
     title.style.cssText = "margin-top:6px;font-size:11px;color:#1f4d89;line-height:1.2";
@@ -56473,7 +56473,7 @@ async function loadBatchPreview(mount2, label2) {
     img.src = `${basePath}${entry.file}`;
     img.alt = `${entry.phraseId} glyph-${String(entry.glyphIndex).padStart(2, "0")}`;
     img.loading = "lazy";
-    img.style.cssText = `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center bottom`;
+    img.style.cssText = `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center center`;
     const title = document.createElement("div");
     title.textContent = `${entry.phraseId} g${entry.glyphIndex}`;
     title.style.cssText = "margin-top:6px;font-size:11px;color:#1f4d89;line-height:1.2";
@@ -56490,7 +56490,7 @@ async function loadBatchPreview(mount2, label2) {
   const sentenceContainer = document.createElement("div");
   sentenceContainer.style.cssText = "padding:10px;background:#ffffff;border:1px solid #d7dce3;border-radius:10px";
   const sentenceParagraph = document.createElement("p");
-  sentenceParagraph.style.cssText = "margin:0;display:flex;gap:4px;align-items:flex-end;overflow-x:auto;padding:2px 0;white-space:nowrap";
+  sentenceParagraph.style.cssText = "margin:0;display:flex;gap:3px;align-items:flex-end;overflow-x:auto;padding:2px 0;white-space:nowrap";
   const sentenceGlyphHeight = 52;
   for (const entry of glyphEntries) {
     const renderHeight = sentenceGlyphHeight;
@@ -56502,7 +56502,7 @@ async function loadBatchPreview(mount2, label2) {
     glyphImg.src = `${basePath}${entry.file}`;
     glyphImg.alt = `${entry.phraseId} glyph-${String(entry.glyphIndex).padStart(2, "0")}`;
     glyphImg.loading = "lazy";
-    glyphImg.style.cssText = `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center bottom;flex:0 0 auto`;
+    glyphImg.style.cssText = `display:block;width:${renderWidth}px;height:${renderHeight}px;object-fit:contain;object-position:center center;flex:0 0 auto`;
     sentenceParagraph.appendChild(glyphImg);
   }
   sentenceContainer.appendChild(sentenceParagraph);

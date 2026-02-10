@@ -702,7 +702,7 @@ function toZeroOriginSvg({ content, viewBox }, scale = 1) {
 function toFixedHeightGlyphSvg({ content, viewBox }, targetHeight) {
   const canvasHeight =
     Number.isFinite(targetHeight) && targetHeight >= viewBox.height ? targetHeight : viewBox.height
-  const yPad = canvasHeight - viewBox.height
+  const yPad = (canvasHeight - viewBox.height) / 2
   const txValue = -viewBox.minX
   const tyValue = -viewBox.minY + yPad
   const tx = formatNumber(txValue)
